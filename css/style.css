@@ -1,0 +1,120 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Oswald:wght@200..700&family=Pacifico&family=Paytone+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Général */
+
+*{
+    margin: 0;
+    font-family: "Newsreader", serif;
+    max-width: 1280px;
+    margin: auto;
+}
+
+/* Header */
+
+header{
+    padding: 12px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 690px;
+    border-bottom: 1px solid black;
+}
+
+.logo > a{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.search-login{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.search-box input{
+    padding: 8px 16px 8px 0px;
+    border-radius: 20px;
+    border: #E5E8EB;
+    outline: none;
+    font-size: 16px;
+    background-color: #E5E8EB;
+}
+
+::placeholder{
+    color: #4F966E;
+}
+
+.btn-search{
+    background-color: #E5E8EB;
+    border: #E5E8EB;
+    color: #4F966E;
+}
+
+.search-box{
+    padding: 2px 4px;
+    border-radius: 20px;
+    border: #E5E8EB;
+    outline: none;
+    font-size: 1em;
+    background-color: #E5E8EB;
+}
+
+.login{
+    text-decoration: none;
+    color: black;
+    padding:9px;
+    border-radius: 30px;
+    border: #E5E8EB;
+    outline: none;
+    font-size: 1em;
+    background-color: #E5E8EB;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+footer{
+    padding: 40px 0;
+}
+
+footer > div{
+    display: flex;
+    max-width: 960px;
+}
+
+footer > div > a{
+    text-decoration: none;
+    color: #4F966E;
+    margin-top: 24px;
+    text-align: center;
+    font-size: 16px;
+}
+
+footer > p{
+    text-align: center;
+    margin-top: 40px;
+    color: #4F966E;
+    font-size: 16px;
+    margin-right: 50px;
+}
