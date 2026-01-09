@@ -79,7 +79,7 @@ main{
 }
 
 .sec1{
-background-image: url(/img/Premier-image-accueil.png);
+background-image: url(../img/Premier-image-accueil.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 928px;
