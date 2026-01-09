@@ -73,8 +73,32 @@ header{
     background-color: #E5E8EB;
 }
 
+/* Main */
 
+main{
+    padding: 20px 160px;
+}
 
+.sec1{
+    background-image: url(/img/Premier-image-accueil.png);
+    background-repeat: no-repeat;
+    background-size: 928px 480px;
+    width: 928px;
+    height: 480px;
+    border-radius: 12px;
+}
+
+.sec1 > div{
+    color: white;
+    padding: 200px 50px;
+    background-color: #0000006b;
+    border-radius: 12px;
+}
+
+.sec1 > div > h1{
+    font-size: 48px;
+    font-weight: 800;
+}
 
 
 
